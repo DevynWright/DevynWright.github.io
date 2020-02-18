@@ -3,12 +3,10 @@
 error_reporting( 0 );
 
 // Get the values from html form
-$project    =    $_POST['project'];
 $name       =    $_POST['name'];
 $email      =    $_POST['email'];
 $company    =    $_POST['company'];
 $phone    =    $_POST['phone'];
-$budget     =    $_POST['budget'];
 $message    =    $_POST['message'];
 
 // Email Address where you want to received the mails
@@ -29,10 +27,6 @@ $email_message = '<html>
 <body>
 <table>
     <tr>
-        <th align="left"><strong>What your project need?</strong></th>
-        <td align="left">' . $project . '</td>
-    </tr>
-    <tr>
         <th align="left"><strong>Full Name:</strong></th>
         <td align="left">' . $name . '</td>
     </tr>
@@ -47,11 +41,6 @@ $email_message = '<html>
     <tr>
         <th align="left"><strong>Phone:</strong></th>
         <td align="left">' . $phone . '</td>
-    </tr>
-       <tr>
-        <th align="left"><strong>Budget:</strong></th>
-        <td align="left">' . $budget . '</td>
-    </tr>
        <tr>
         <th align="left"><strong>Message:</strong></th>
         <td align="left">' . $message . '</td>
