@@ -13,10 +13,10 @@ $message    =    $_POST['message'];
 $to = "wrightdevyn@gmail.com";
 
 // Mail Subject
-$subject = "Resume - Responsive Portfolio / CV Template";
+$subject = "Landing Page Form";
 
 // Sender details
-$sender_name = "Get a Quote";
+$sender_name = "Lets get in Touch!";
 $sender_email = "no-reply@newtemplate.net";
 
 // Output table
