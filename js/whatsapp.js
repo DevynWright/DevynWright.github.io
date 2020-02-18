@@ -12,7 +12,7 @@
     "use strict";
 
     //just change the numbers "1515551234567" for your number. Don't use +001-(555)1234567
-    var contactNumber = 1515551234567;
+    var contactNumber = 12086027529;
 
     $('.close-popup').on("click", function () {
         $('.whatsapp-area').css('display', 'none');
