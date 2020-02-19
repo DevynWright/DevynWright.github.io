@@ -284,7 +284,7 @@
         errorElement: 'span',
         rules: {
             project: {
-                required: true
+                required: false
             },
             name: {
                 required: true
@@ -299,7 +299,7 @@
                 required: true
             },
             budget: {
-                required: true
+                required: false
             },
             message: {
                 required: true
